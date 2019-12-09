@@ -1,0 +1,75 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #e6e6e6;
+  width: 40vw;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.post .header {
+  padding: 4px;
+}
+.header img {
+  border-radius: 50%;
+  width: 50px;
+}
+.circle {
+  display: flex;
+  color: red;
+  border: 2px solid red;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 4px;
+}
+.accountTitle {
+  color: #000;
+  margin: auto auto auto 15px;
+  font-weight: 500;
+}
+.iconBelowImage {
+  font-size: 1.5em;
+
+  margin-right: 12px;
+}
+.iconBelowImageDiv {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-between;
+}
+.iconOnLeft {
+  display: flex;
+  padding: 4px;
+}
+.iconOnRight {
+  display: flex;
+  margin-left: auto;
+}
+.storyImage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+}
+iframe {
+  height: auto;
+  width: 100%;
+}
+.likes {
+  font-weight: 600;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 4px;
+}
+.comment {
+  margin-right: auto;
+  margin-top: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 500px;
+  text-overflow: ellipsis;
+}

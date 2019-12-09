@@ -1,0 +1,64 @@
+.Nav {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  height: 30px;
+  width: 100vw;
+  background-color: #ffffff;
+  border-bottom: 2px solid #e6e6e6;
+  padding: 20px;
+  z-index: 5;
+}
+.iconInsta {
+  font-size: 2em;
+  margin-bottom: 4px;
+}
+nav img {
+  height: 2em;
+  margin-left: 10px;
+}
+.instaLogo {
+  margin-left: 60px;
+  display: flex;
+}
+.input {
+  display: flex;
+  margin: auto;
+  background-color: #fafafa;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  padding: 4px 4px 8px 4px;
+  height: 20px;
+  width: 190px;
+  text-align: center;
+  justify-content: center;
+  color: #aaaaaa;
+  font-weight: 200;
+}
+.input input {
+  background-color: #fafafa;
+  border: 0px none #dbdbdb;
+  border-radius: 0px 3px 3px 0px;
+  text-align: center;
+}
+.input input:focus {
+  text-align: left;
+  outline: none;
+}
+.searchIcon {
+  margin-top: 6px;
+  margin-right: 6px;
+  color: #a5a7aa;
+  font-size: 0.65em;
+}
+.iconInstaEndDiv {
+  display: flex;
+  margin: 0 3em;
+}
+.iconInstaEnd {
+  margin: 0 40px 4px 0;
+  font-size: 1.5em;
+}
+.formInput {
+  margin-bottom: 10px;
+}
